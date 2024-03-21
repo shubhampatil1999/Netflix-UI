@@ -1,0 +1,443 @@
+/* body{
+    background-image: url(./img/NetBackGround.jpg);  
+    background-repeat:no-repeat;
+    background-size:cover ;  
+    padding: 0px;
+    margin: 0px;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+#nav #left img{
+    width: 150px;
+    margin: 10px 140px;
+    align-items: center;
+}
+.right{
+    background: transparent;
+    border: 0%;
+    outline: 0%; 
+    margin-right: 140px;
+}
+#nav .right button{
+    height: 33px;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    margin: 0px 1.2rem;
+}
+#nav .right .si{
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    width: 4.3rem;
+    border: 0;
+    outline: 0;
+}
+#nav .right .lan{
+    border:0cap;
+    outline: 5rem;
+    border-color:white ;
+}
+#nav .right .lan img{
+   width: 10px;
+   margin-left: 10px;
+   color: white;
+} */
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./img/NetBackGround.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-color: black;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 15%;
+}
+#nav #left img{
+    width: 9rem;
+}
+#nav #right{
+    gap: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+#nav #right select{
+    background-color: black;
+    color: white;
+    width: 7rem;
+    height: 2.1rem;
+    border-radius: 5px;
+    padding-left: 1.2rem;
+    border: 1px solid lightgrey;
+}
+#nav #right #si{
+    background-color: red;
+    color: white;
+    width: 5rem;
+    height: 2.1rem;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+}
+#nav #right select option{
+    background-color: white;
+}
+#right{
+    position: relative;
+}
+#right i{
+    color: white;
+    position: absolute;
+    left: 3%;
+    margin-top:3.5%;
+    margin: left -3%;
+}
+#alpha{
+    text-align: center;
+    color: white;
+    margin-top: 11rem;
+}
+#alpha h1{
+    font-size: 3.5rem;
+    margin-bottom: 0px;
+    font-weight: 800;
+}
+#alpha h3{
+    font-size: 1.7rem;
+    margin-bottom: 0px;
+    margin-top: 17px;
+}
+#alpha p{
+    font-size: 1.3rem;
+}
+#alpha #nav{
+    display: inline;
+    align-items: center;
+}
+#alpha #nav input{
+    width: 21rem;
+    height: 3rem;
+    border-radius: 5px;
+    border:1px solid lightgray;
+    background-color:rgba(0, 0, 0, 0.781);
+    color: white;
+    font-weight: 600;
+    font-size: medium;
+}
+#alpha #nav input::placeholder{
+    color: lightgray;
+    padding: 10px;
+    font-size: medium;
+    font-weight: 500;
+}
+#alpha #nav button{
+    width: 13rem;
+    height: 3.2rem;
+    background-color: red;
+    color: white;
+    font-size: x-large;
+    border: none;
+    border-radius: 6px;
+}
+#tv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 80%;
+    margin: auto;
+    margin-top: 16.5rem;
+}
+#tv div{
+    width: 50%;
+}
+#tv #enjoy h1{
+    font-size: 3rem;
+}
+#tv #enjoy p{
+    font-size: 1.6rem;
+}
+#bird{
+    position: relative;
+}
+#bird img{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+#bird video{
+    position: absolute;
+    top: 20.4%;
+    left: 13%;
+    width: 73%;
+    z-index: 1;
+}
+/* #mob{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 9rem;
+}
+#mob div{
+    width: 50%;
+}
+#mob #down{
+    padding: 0px 0px 0px 6px;
+}
+#mob #down h1{
+    font-size: 3rem;
+    margin-bottom: 0px;
+}
+#mob #down p{
+    font-size: 1.6rem;
+}
+#strn{
+    position: relative;
+}
+#strn img{
+    width: 100%;
+    position: relative;
+} */
+#tv1{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 9rem;
+}
+#tv1 div{
+    width: 50%;
+}
+#tv1 #watch h1{
+    font-size: 3rem;
+    margin-bottom: 0px;
+
+}
+#tv1 #watch p{
+    font-size: 1.6rem;
+}
+#sg{
+    position: relative;
+}
+#sg img{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+#sg video{
+    position: absolute;
+    top: 34px;
+    left: 19%;
+    width: 61%;
+    z-index: 1;
+}
+#chi{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 9rem;
+}
+#chi div{
+    width: 50%;
+}
+#ch{
+    position: relative;
+}
+#ch img{
+    width: 100%;
+    position: relative;
+}
+#chi #create h1{
+    font-size: 3rem;
+    margin-bottom: 0px;
+}
+#chi #create p{
+    font-size: 1.6rem;
+}
+#mob{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    color: white;
+    margin-top: 11rem;
+}
+#mob #strn{
+    width: 45%;
+    position: relative;
+}
+#mob #strn #img1{
+    width: 100%;
+}
+#mob #down{
+    width: 45%;
+}
+#mob #down h1{
+    font-size: 3rem;
+}
+#mob #down p{
+    font-size:1.6rem ;
+}
+#st{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #5a5a5a;
+    border-radius:5px;
+    width: 60%;
+    margin: auto;
+    position: absolute;
+    bottom: 13%;
+    left: 20%;
+    background-color: black;
+
+}
+#st #im{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+#st #im img{
+    width: 3.5rem;
+}
+#st #im h4{
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+#st #im h5{
+    font-size: 0.8rem;
+    margin-top: 0;
+    color:#0071eb ;
+}
+#st #gif img{
+    width: 2.5rem;
+}
+#QNA{
+    color: white;
+    text-align: center;
+    display: block;
+    width: 77%;
+    margin: auto;
+    margin-top: 11rem;
+
+}
+#QNA h1{
+    font-size: 3.5rem;
+}
+#QNA ul{
+    display: grid;   
+}
+#QNA ul button{
+    margin: 0.2rem;
+    padding:1.5rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    background-color: #2d2d2d;
+    color: white;
+    height: 5.2rem;
+    border: none;
+}
+#QNA #qa i{
+    font-size: 1.8rem;
+}
+#alpha1{
+    text-align: center;
+    color: white;
+    margin-top: 3rem;
+}
+#alpha1 p{
+    font-size: 1.3rem;
+}
+#alpha1 #nav{
+    display: inline;
+    align-items: center;
+}
+#alpha1 #nav input{
+    width: 21rem;
+    height: 3rem;
+    border-radius: 5px;
+    border:1px solid lightgray;
+    background-color:rgba(0, 0, 0, 0.781);
+    color: white;
+    font-weight: 600;
+    font-size: medium;
+}
+#alpha1 #nav input::placeholder{
+    color: lightgray;
+    padding: 10px;
+    font-size: medium;
+    font-weight: 500;
+}
+#alpha1 #nav button{
+    width: 13rem;
+    height: 3.2rem;
+    background-color: red;
+    color: white;
+    font-size: x-large;
+    border: none;
+    border-radius: 6px;
+}
+#alpha #nav button i{
+    font-size: 1.6rem;
+}
+#foot{
+    color: #b3b3b3;
+    padding-bottom: 2.5rem;
+}
+#foot{
+    width: 77%;
+    margin: auto;
+    margin-top: 11rem;
+    font-size: 1.1rem;
+}
+#foot #ul1{
+    display: flex;
+    margin-top: 1.6rem;
+    margin: 0;
+    padding: 0px;
+}
+#foot #ul1 ul{
+    padding-left: 0px;
+    padding-right: 13rem;
+    margin-top: 2rem;
+}
+#foot #ul1 li{
+    list-style-type: none;
+    padding: 0.3rem;
+}
+#foot a{
+    color: #b3b3b3;
+
+}
+#foot #op select{
+    background-color: black;
+    color: white;
+    width: 7rem;
+    height: 2.1rem;
+    border-radius: 5px;
+    padding-left: 1.2rem;
+    border: 1px solid lightgrey;
+}
+#op i{
+    color: white;
+    position: absolute;
+    left: 14.5%;
+    margin-top:0.5%;
+    margin-left:-3%;
+}
